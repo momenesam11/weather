@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #1E202B ;
+}
+
+input#inputField::placeholder {
+    color: #999;
+    font-style: italic;
+    padding-left: 10px;
+}
+
+
+input#inputField{
+    color: #FFFFFF;
+}
+
+div.in {
+    width: 70%;
+        padding: 50px 0px 119px 0px;
+}
+
+div.bg{
+    background-image: url('../img/banner.png');
+    height: 20%;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+div.topp{
+    margin-top: -60px;
+}
+
+div.header1,div.header3{
+    background-color: #2D303D;
+}
+div.header2{
+background-color: #222530;
+}
+div.body1,div.body3{
+background-color: #323544;
+}
+div.body2{
+background-color: #262936;
+}
+
+
+h1.deg{
+    font-size: 4rem;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+div.container-fluid{
+    background-color: #262936;
+}
+
+.social-links a {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    background: #1e202b;
+    color: #009ad8;
+    text-align: center;
+    line-height: 2;
+    -webkit-transition: 0.3s 
+ease;
+    transition: 0.3s 
+ease;
+    font-size: 20px;
+    font-size: 1.4285714286em;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in {
+    animation: fadeIn 0.6s ease-out forwards;
+}
